@@ -6,10 +6,11 @@ This repo will contain image classificaion done in various settings.
 MNIST
 -----
 
-| Model       | Train acc | Train loss   | Val loss       | Val acc    | Num Epochs | Batch size | Optimizer | Loss function             | Notes                |
-|-------------|:---------:|:------------:|:--------------:|:----------:|------------|------------|-----------|---------------------------|----------------------|
-| Base        | 56830     | 11053.372862 | 0.0011         | 97.915%    | 10         | 64         | Adam      | Categorical crossentropy  |                      |
-
+| Model       | Train acc | Train loss   | Val avg loss   | Val acc    | Num Epochs | Batch size | Optimizer | Learning rate | Loss function             | Notes                 |
+|-------------|:---------:|:------------:|:--------------:|:----------:|------------|------------|-----------|:-------------:|---------------------------|-----------------------|
+| Base        | 57397     | 9280.193998  | 0.0007         | 98.55%     | 20         | 64         | Adam      | 3e-4          | Categorical crossentropy  |                       |
+| v1          |           |              |                |            | 20         | 64         | Adam      | 3e-4          | Categorical crossentropy  |                       |
+| v2          | 58219     | 6137.954557  | 0.0006         | 98.67%     | 20         | 64         | Adam      | 3e-4          | Categorical crossentropy  | Added 50 neurons to fc1|
 
 
  
